@@ -1,11 +1,12 @@
-{
+t {
   "name": "reto_03",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "repository": "https://github.com/gmz2091/oasis_reto_03.git",
   "author": "Magdiel <mgomez2091@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^1.4.0",
     "concurrently": "^8.1.0",
     "lite-server": "^2.6.1",
     "typescript": "^5.1.3"

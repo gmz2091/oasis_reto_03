@@ -1,7 +1,6 @@
 {
     "compilerOptions": {
-        "target": "es5",
-        "module": "commonjs",
+        "module": "es6",
         "outDir": "dist",
         "sourceMap": true,
         "strict": true,
@@ -11,9 +10,11 @@
         "resolveJsonModule": true,
     },
     "include": [
-        "*.ts"
+        "src/**/*.ts"
     ],
     "exclude": [
         "node_modules"
-    ]
+    ],
+    "outDir": "./dist",
+    "rootDir": "./src"
 }
